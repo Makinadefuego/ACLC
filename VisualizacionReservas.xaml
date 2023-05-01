@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCLC.VisualizacionReservas"
+             Title="Visualización de Reservas">
+    <ScrollView BackgroundColor="#82014A">
+        <VerticalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <ImageButton Source="triangulo.png" MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="Transparent" Rotation="-90"/>
+                <Grid ColumnDefinitions="100, 100, 300" RowDefinitions="50"  BackgroundColor="White" MaximumHeightRequest="50">
+                    <Label Text="Reservaciones" Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label Text="LAB 01" Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label Text="SEMANA DE 01 - 08 ABRIL" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </Grid>
+                <ImageButton  Source="triangulo.png" MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="Transparent" Rotation="90"/>
+            </HorizontalStackLayout>
+            <Grid MinimumWidthRequest="750" RowDefinitions="50,50,50,50,50,50,50,50,50"  ColumnDefinitions="125,125,125,125,125,125" HorizontalOptions="Center" BackgroundColor="#C40093"  Margin="0, 20, 0,0">
+                <!-- Días de la semana -->
+                <Label Text="Módulos" Grid.Column="0" Grid.Row="0" BackgroundColor="#82014A"  Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="Lunes" Grid.Column="1" Grid.Row="0" BackgroundColor="#661943" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="Martes" Grid.Column="2" Grid.Row="0" BackgroundColor="#661943" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="Miercoles" Grid.Column="3" Grid.Row="0" BackgroundColor="#661943" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="Jueves" Grid.Column="4" Grid.Row="0" BackgroundColor="#661943" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="Viernes" Grid.Column="5" Grid.Row="0" BackgroundColor="#661943" Padding="20,10,0,0" TextColor="White"/>
+
+                <!-- Módulos (Horarios)-->
+                <Label Text="7:00-8:30" Grid.Column="0" Grid.Row="1" BackgroundColor="#E9beda" Padding="30,10,0,0" TextColor="Black"/>
+                <Label Text="8:30-10:00" Grid.Column="0" Grid.Row="2" BackgroundColor="#cf0276" Padding="25,10,0,0" TextColor="White"/>
+                <Label Text="10:00-11:30" Grid.Column="0" Grid.Row="3" BackgroundColor="#E9beda" Padding="20,10,0,0" TextColor="Black"/>
+                <Label Text="11:30-13:00" Grid.Column="0" Grid.Row="4" BackgroundColor="#cf0276" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="13:00-14:30" Grid.Column="0" Grid.Row="5" BackgroundColor="#E9beda" Padding="20,10,0,0" TextColor="Black"/>
+                <Label Text="14:30-16:00" Grid.Column="0" Grid.Row="6" BackgroundColor="#cf0276" Padding="20,10,0,0" TextColor="White"/>
+                <Label Text="16:00-17:30" Grid.Column="0" Grid.Row="7" BackgroundColor="#E9beda" Padding="20,10,0,0" TextColor="Black"/>
+                <Label Text="17:30-19:00" Grid.Column="0" Grid.Row="8" BackgroundColor="#cf0276" Padding="20,10,0,0" TextColor="White"/>
+                
+                <!-- Reservaciones-->
+                <!-- Lunes -->
+                <Button x:Name="LUNES_01_1" Grid.Column="1" Grid.Row="1" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                <Button x:Name="LUNES_01_2" Grid.Column="1" Grid.Row="2" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_3" Grid.Column="1" Grid.Row="3" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_4" Grid.Column="1" Grid.Row="4" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_5" Grid.Column="1" Grid.Row="5" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_6" Grid.Column="1" Grid.Row="6" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_7" Grid.Column="1" Grid.Row="7" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="LUNES_01_8" Grid.Column="1" Grid.Row="8" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+
+                <!-- Martes -->
+                <Button x:Name="MARTES_01_1" Grid.Column="2" Grid.Row="1" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_2" Grid.Column="2" Grid.Row="2" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_3" Grid.Column="2" Grid.Row="3" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_4" Grid.Column="2" Grid.Row="4" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_5" Grid.Column="2" Grid.Row="5" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_6" Grid.Column="2" Grid.Row="6" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_7" Grid.Column="2" Grid.Row="7" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="MARTES_01_8" Grid.Column="2" Grid.Row="8" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+
+                <!-- Miercoles -->
+                <Button x:Name="MIERCOLES_01_1" Grid.Column="3" Grid.Row="1" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_2" Grid.Column="3" Grid.Row="2" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_3" Grid.Column="3" Grid.Row="3" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_4" Grid.Column="3" Grid.Row="4" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_5" Grid.Column="3" Grid.Row="5" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_6" Grid.Column="3" Grid.Row="6" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_7" Grid.Column="3" Grid.Row="7" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="MIERCOLES_01_8" Grid.Column="3" Grid.Row="8" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+
+                <!-- Jueves -->
+                <Button x:Name="JUEVES_01_1" Grid.Column="4" Grid.Row="1" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_2" Grid.Column="4" Grid.Row="2" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_3" Grid.Column="4" Grid.Row="3" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_4" Grid.Column="4" Grid.Row="4" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_5" Grid.Column="4" Grid.Row="5" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_6" Grid.Column="4" Grid.Row="6" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_7" Grid.Column="4" Grid.Row="7" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+                <Button x:Name="JUEVES_01_8" Grid.Column="4" Grid.Row="8" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="#E2E2E2"/>
+
+                <!-- Viernes -->
+                <Button x:Name="VIERNES_01_1" Grid.Column="5" Grid.Row="1" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_2" Grid.Column="5" Grid.Row="2" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_3" Grid.Column="5" Grid.Row="3" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_4" Grid.Column="5" Grid.Row="4" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_5" Grid.Column="5" Grid.Row="5" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_6" Grid.Column="5" Grid.Row="6" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_7" Grid.Column="5" Grid.Row="7" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+                <Button x:Name="VIERNES_01_8" Grid.Column="5" Grid.Row="8" Text="" BorderColor="White" BorderWidth="1" CornerRadius="0" BackgroundColor="Transparent"/>
+
+            </Grid>
+        </VerticalStackLayout>
+        
+    </ScrollView>
+</ContentPage>

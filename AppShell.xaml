@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SCLC.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SCLC"
+    Shell.FlyoutBehavior="Disabled"
+    BackgroundColor="#E9BEDA"
+    >
+
+    <ShellContent
+        Title="Sistema de Control para los laboratorios de Cómputo de la Unidad Profesional Interdisciplinaria de Ingeniería Campus Tlaxcala"
+        ContentTemplate="{DataTemplate local:Principal}"
+        Route="Principal"
+        
+        />
+
+</Shell>
