@@ -1,3 +1,5 @@
+using SCLC.Models;
+
 namespace SCLC;
 
 public partial class Principal : ContentPage
@@ -12,8 +14,13 @@ public partial class Principal : ContentPage
 		await Navigation.PushAsync(new MainPage());
     }
 
-    private async void IrVisualizacion(object sender, EventArgs e)
+    private async void IrLab1(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new VisualizacionReservas());
+        await Navigation.PushAsync(new VisualizacionReservas(new Laboratorio(){ idLaboratorio =1} ) );
+    }
+
+    private async void IrLab2(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new VisualizacionReservas(new Laboratorio(){ idLaboratorio = 2 }));
     }
 }

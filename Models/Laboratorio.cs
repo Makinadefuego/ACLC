@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SCLC.Models
+﻿namespace SCLC.Models
 {
     public class Laboratorio
     {
+        public int idLaboratorio { get; set; }
     }
 }

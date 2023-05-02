@@ -10,7 +10,7 @@
             VerticalOptions="Center"
             BackgroundColor="#82014A">
             
-            
+           
             <Border  
                 StrokeShape="RoundRectangle 10,10,10,10"
                 Background="#E2E2E2"

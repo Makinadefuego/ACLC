@@ -1,4 +1,6 @@
 using Microsoft.Maui.Controls;
+using SCLC.Models;
+using SCLC.Services;
 
 namespace SCLC.Pages;
 
@@ -9,15 +11,46 @@ public partial class EleccionReserva : ContentPage
     HorizontalStackLayout HorizontalLayout = new HorizontalStackLayout();
 
     DatePicker datePicker = new DatePicker();
-    public EleccionReserva()
-	{
-        
-        
 
-        datePicker.Date = DateTime.Now;
+    Usuario _usuario;
+    Laboratorio _laboratorio;
+    int _modulo;
+    DateTime _fecha;
+    
+    public EleccionReserva(Usuario usuario, Laboratorio laboratorio, int modulo, DateTime fecha)
+	{
+        _usuario = usuario;
+        _laboratorio = laboratorio;
+        _modulo = modulo;
+        _fecha = fecha;
+
+
+
+
+
+        Label mod = new Label
+        {
+            Text = "Modulo: " + modulo,
+            FontSize = 20
+        };
+
+        Button ReservarTodo = new Button
+        { 
+            Text = "Reservar todo",
+            FontSize = 10,
+            BackgroundColor = Color.FromHex("#82014A"),
+            CornerRadius = 10,
+            HorizontalOptions = LayoutOptions.CenterAndExpand
+        };
+
+        ReservarTodo.Clicked += Boton_Clicked;
+
+        datePicker.Date = fecha;
 
 
         HorizontalLayout.Add(datePicker);
+        HorizontalLayout.Add(mod);
+        HorizontalLayout.Add(ReservarTodo);
         VerticalLayout.Add(HorizontalLayout);
         VerticalLayout.HorizontalOptions = LayoutOptions.CenterAndExpand;
 
@@ -63,17 +96,25 @@ public partial class EleccionReserva : ContentPage
         Content = VerticalLayout;
     }
 
-    private void Boton_Clicked(object sender, EventArgs e)
+    public async void Boton_Clicked(object sender, EventArgs e)
     {
-       //se crea una etiqueta con la fecha
 
-        var fecha = new Entry
+        IReservacionModulo reservarModulo = new ModuloReservacionServicio();
+
+        bool reservacionExitosa = await reservarModulo.ReservarModulo( _usuario.boleta, _modulo, _fecha, _laboratorio.idLaboratorio );
+
+        Label label = new Label()
         {
-            Text = "Fecha: " + datePicker.Date,
-            FontSize = 20
-            
+            Text = "Mal"
         };
-        VerticalLayout.Children.Add(fecha);
+        if ( reservacionExitosa )
+        {
+            label.Text = "Bien";
+            
+        }
+        VerticalLayout.Children.Add(label);
+
+        Content = VerticalLayout;
 
     }
 }

@@ -2,8 +2,8 @@
 using Android.Runtime;
 
 namespace SCLC;
-
-[Application]
+                   // connect to local service on the
+[Application]  // emulator's host for debugging,
 public class MainApplication : MauiApplication
 {
 	public MainApplication(IntPtr handle, JniHandleOwnership ownership)

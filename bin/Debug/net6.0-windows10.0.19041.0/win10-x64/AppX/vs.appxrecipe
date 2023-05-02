@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-01T05:10:04.449</Modified>
+      <Modified>2023-05-02T20:44:33.227</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-01T05:10:03.001</Modified>
+      <Modified>2023-05-13T03:36:12.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.runtimeconfig.json">
       <PackagePath>SCLC.runtimeconfig.json</PackagePath>
-      <Modified>2023-04-30T06:59:33.156</Modified>
+      <Modified>2023-05-02T20:20:21.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.dll">
       <PackagePath>SCLC.dll</PackagePath>
-      <Modified>2023-05-01T05:10:00.948</Modified>
+      <Modified>2023-05-13T03:36:11.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SCLC.exe</PackagePath>
-      <Modified>2023-05-01T05:10:00.996</Modified>
+      <Modified>2023-05-13T03:36:11.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.16\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1071,7 +1071,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.deps.json">
       <PackagePath>SCLC.deps.json</PackagePath>
-      <Modified>2023-05-01T05:10:04.183</Modified>
+      <Modified>2023-05-02T20:44:32.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
