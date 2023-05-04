@@ -9,6 +9,6 @@ namespace SCLC.Services
 {
     public interface IObtenerModulo
     {
-        Task<List<Reservacion>> ObtenerModulo(int modulo, int lab, DateTime fecha);
+        Task<List<Computadora>> ObtenerModulo(int modulo, int lab, DateTime fecha);
     }
 }

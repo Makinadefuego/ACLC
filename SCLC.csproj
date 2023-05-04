@@ -33,9 +33,17 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg">
+		  <Color>#ffffff</Color>
+		</MauiSplashScreen>
+		<MauiSplashScreen Include="Resources\Splash\splash1.svg">
+		  <Color>#ffffff</Color>
+		</MauiSplashScreen>
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources/Splash/splash.svg" Color="#ffffff"></MauiSplashScreen>
+		
+		<!--      -->
+		<MauiSplashScreen Include="Resources\Splash\ipnlogo.svg" Color="#ffffff"></MauiSplashScreen>
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -49,20 +57,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\fer.png" />
 	  <None Remove="Resources\Images\iniciar.png" />
 	  <None Remove="Resources\Images\ipnlogo.jpg" />
 	  <None Remove="Resources\Images\ipnlogo.png" />
 	  <None Remove="Resources\Images\lab1.png" />
 	  <None Remove="Resources\Images\lab2.png" />
+	  <None Remove="Resources\Images\pc.png" />
+	  <None Remove="Resources\Images\pc_green.png" />
+	  <None Remove="Resources\Images\pc_red.png" />
+	  <None Remove="Resources\Images\pc_yellow.png" />
 	  <None Remove="Resources\Images\registrarse.png" />
 	  <None Remove="Resources\Images\reserva.png" />
 	  <None Remove="Resources\Images\triangulo.png" />
 	  <None Remove="Resources\Images\trianguloB.png" />
+	  <None Remove="Resources\Splash\ipnlogo.svg" />
+	  <None Remove="Resources\Splash\splash.svg" />
 	  <None Remove="Resources\Splash\splash1.svg" />
+		
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="6.0.3" />
 	  <PackageReference Include="Plugin.Maui.Popup" Version="1.0.5" />
 	</ItemGroup>
 

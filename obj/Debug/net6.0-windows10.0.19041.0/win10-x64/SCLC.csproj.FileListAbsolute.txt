@@ -6,6 +6,7 @@ C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.pdb
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -28,6 +29,8 @@ C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiPopup.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
@@ -252,6 +255,7 @@ C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1623.17311.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -270,11 +274,11 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-125.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-150.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-200.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-400.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
@@ -330,6 +334,19 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\iniciar.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.jpg
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab1.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab2.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_green.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_red.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_yellow.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\registrarse.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reserva.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\triangulo.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trianguloB.scale-100.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.AssemblyInfoInputs.cache
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.AssemblyInfo.cs
@@ -357,26 +374,24 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.jpg
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\fer.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-100.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-125.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-150.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-200.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-400.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\registrarse.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\iniciar.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reserva.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab1.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab2.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-125.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-150.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-200.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-400.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\triangulo.scale-100.png
-C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trianguloB.scale-100.png
-C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
-C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1623.17311.dll
-C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiPopup.dll
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - Copia (2)SplashScreen.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - Copia (2)SplashScreen.scale-125.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - Copia (2)SplashScreen.scale-150.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - Copia (2)SplashScreen.scale-200.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - Copia (2)SplashScreen.scale-400.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - CopiaSplashScreen.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - CopiaSplashScreen.scale-125.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - CopiaSplashScreen.scale-150.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - CopiaSplashScreen.scale-200.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogo - CopiaSplashScreen.scale-400.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\fer.scale-100.png

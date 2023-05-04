@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace SCLC.Services
 {
-    public class ObtenerReservacionesServicio
+    interface IReservarComputadoras
     {
-
- 
+        Task<bool> ReservarComputadora(List<Computadora> computadoras, DateTime fecha, Usuario usuario);
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5wXKC5pk5o9GJQR8c20ofbnCKIhnitZPsRSRV7m9qNT1FWsrhIdGl2CvMArjchhuQCMqLjpXPTeNvac0AnDfeA==",
+  "dgSpecHash": "CPfujl+rBfbRQNcBxFV4S673GeSkgXM1C20IHFdDOz9Z6Mxjn+XWn0m9xo3KiC+b/H4663xV2WS7h/zy8JFzPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\elfer\\source\\repos\\SCLC\\SCLC.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\elfer\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.5\\microsoft.windowsappsdk.1.1.5.nupkg.sha512",
+    "C:\\Users\\elfer\\.nuget\\packages\\newtonsoft.json\\6.0.3\\newtonsoft.json.6.0.3.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\plugin.maui.popup\\1.0.5\\plugin.maui.popup.1.0.5.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -147,5 +148,16 @@
     "C:\\Users\\elfer\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\microsoft.maui.controls.runtime.win\\6.0.552\\microsoft.maui.controls.runtime.win.6.0.552.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Newtonsoft.Json 6.0.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0-ios16.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    }
+  ]
 }

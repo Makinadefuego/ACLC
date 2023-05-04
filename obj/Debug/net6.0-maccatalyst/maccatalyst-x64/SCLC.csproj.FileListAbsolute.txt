@@ -11,6 +11,7 @@ C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Mi
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MauiPopup.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
@@ -235,6 +236,10 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\re
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\ipnlogo.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lab1.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lab2.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pc.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pc_green.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pc_red.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pc_yellow.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\registrarse.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\reserva.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\triangulo.png

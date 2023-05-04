@@ -14,13 +14,15 @@ namespace SCLC.Services
             bool resultado = false;
             var client = new HttpClient();
 
-            //string fechaFinal = date.ToString("dd/MM/yyyy");
-            string fechaFinal = "04/30/2023";
+            string fechaFinal = date.ToString("yyyy/MM/dd");
+            //string fechaFinal = "04/30/2023";
 
             string parametros = "?usuario="+usuario+ "&modulo="+modulo+"&date="+fechaFinal+"&lab="+lab;
-        
-            string url = "https://bm510s9g-5148.usw3.devtunnels.ms/api/Reservacion/ReservarModulo" + parametros;
 
+
+            //string url = Direccion.direccionNancy + "Reservacion/ReservarModulo" + parametros;
+            string url = Direccion.direccionLocal + "Reservacion/ReservarModulo" + parametros;
+          
             client.BaseAddress = new Uri(url);
 
             HttpResponseMessage response = await client.PostAsync("", null);
