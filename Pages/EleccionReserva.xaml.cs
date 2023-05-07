@@ -2,6 +2,7 @@ using Microsoft.Maui.Controls;
 using SCLC.Models;
 using SCLC.Services;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace SCLC.Pages;
 
@@ -12,7 +13,14 @@ public partial class EleccionReserva : ContentPage
     HorizontalStackLayout HorizontalLayout = new HorizontalStackLayout();
 
     //Se crean elementos de la grilla de 9*4
-    Grid computadoras = new Grid();
+    Grid computadoras = new Grid()
+    {
+        //MinimumWidthRequest = 500,
+        VerticalOptions = LayoutOptions.Center,
+        HorizontalOptions = LayoutOptions.Center,
+        Margin= new Thickness(50,0,0,0),
+        BackgroundColor =Color.FromHex("#E9beda")
+    };
 
     DatePicker datePicker = new DatePicker();
 
@@ -63,9 +71,9 @@ public partial class EleccionReserva : ContentPage
         datePicker.Date = fecha;
 
 
-        HorizontalLayout.Add(datePicker);
-        HorizontalLayout.Add(mod);
-        HorizontalLayout.Add(ReservarTodo);
+        //HorizontalLayout.Add(datePicker);
+        //HorizontalLayout.Add(mod);
+        //HorizontalLayout.Add(ReservarTodo);
         VerticalLayout.Add(HorizontalLayout);
 #pragma warning disable CS0618 // El tipo o el miembro están obsoletos
         VerticalLayout.HorizontalOptions = LayoutOptions.CenterAndExpand;
@@ -84,13 +92,13 @@ public partial class EleccionReserva : ContentPage
             computadoras.RowDefinitions.Add(new RowDefinition { Height = new GridLength(50, GridUnitType.Absolute) });
         }
         CargarComputadoras();
-        crearComputadoras();
+        CrearComputadoras();
         
         //VerticalLayout.Add(computadoras);
         //Se actualiza el contenido de la pagina
         
        
-        Content = VerticalLayout;
+       
 
 
       
@@ -100,9 +108,60 @@ public partial class EleccionReserva : ContentPage
 
         Grid.SetColumn(computadoras, 1);
         Grid.SetRow(computadoras, 1);
+
+
+
         contenedor.Children.Add(computadoras);
+        labelLab.Text = "Laboratorio: " + laboratorio.idLaboratorio;
+        labelDate.Text = "Fecha: " + cadenaFecha;
+        labelModulo.Text = "Modulo: " + modulo;
+        
+        labelTime.Text = "Horario: " + CalcularHorarioModulo(modulo);
+
+        picker.Date = _fecha;
+
     }
-    public void crearComputadoras()
+
+    public string CalcularHorarioModulo(int modulo)
+    {
+        
+        if(modulo == 1)
+        {
+            return "7:00-7:30";
+        }
+        if(modulo == 2)
+        {
+            return "8:30-10:00";
+        }
+        if(modulo == 3)
+        {
+            return "10:00-11:30";
+        }
+        if(modulo == 4)
+        {
+            return "11:30-13:00";
+        }
+        if(modulo == 5)
+        {
+            return "13:00-14:30";
+        }
+        if(modulo == 6)
+        {
+            return "14:30-16:00";
+        }
+        if(modulo == 7)
+        {
+            return "16:00-17:30";
+        }
+        if(modulo == 8)
+        {
+            return "17:30-19:00";
+        }
+
+        return null;
+
+    }
+    public void CrearComputadoras()
     {
  
         
@@ -164,7 +223,7 @@ public partial class EleccionReserva : ContentPage
             }
         }
 
-        Content = VerticalLayout;
+        //Content = VerticalLayout;
 
         
     }
@@ -178,12 +237,19 @@ public partial class EleccionReserva : ContentPage
 
         Label label = new Label()
         {
-            Text = "Mal"
+            Text = ""
         };
         if ( reservacionExitosa )
         {
-            label.Text = "Bien";
-            
+            string informacion = "Reservacion hecha con exito: \n" +
+                "Laboratorio: " + _laboratorio.idLaboratorio + "\n" +
+                "Modulo: " + _modulo + "\n" +
+                "Fecha: " + _fecha + "\n" +
+                "Hora: " + CalcularHorarioModulo(_modulo) + "\n" +
+                "Usuario: " + _usuario.boleta + "\n";
+            label.Text = "";
+            label.Text += informacion;
+            label.Margin = new Thickness(20);            
         }
         VerticalLayout.Children.Add(label);
 
@@ -198,7 +264,7 @@ public partial class EleccionReserva : ContentPage
         List<Computadora> computadoras = await obtenerModulo.ObtenerModulo(_modulo, _laboratorio.idLaboratorio, _fecha);
         Label label = new Label()
         {
-            Text = "No cargaron"
+            Text = "No cargaron las computadoras..."
         };
 
         if (computadoras != null)
@@ -210,13 +276,13 @@ public partial class EleccionReserva : ContentPage
                 _reservadas.Add(computadoras[i].idComputadora);
           
             }
-
-            label.Text = "Cargaron " + _reservadas.Count;
+            labelModulo.Text += "    Hay " + _reservadas.Count + " computadoras reservadas";
+            
 
         }
 
         VerticalLayout.Children.Add(label);
-        Content = VerticalLayout;
+        //Content = VerticalLayout;
     }
 
     public bool estaEnReservadas(int i)

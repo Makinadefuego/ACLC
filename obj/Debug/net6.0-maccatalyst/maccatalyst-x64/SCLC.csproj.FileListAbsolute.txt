@@ -12,7 +12,6 @@ C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Mi
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
-C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MauiPopup.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -231,6 +230,7 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\re
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\fer.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iniciar.png
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\ipnlogo.jpg
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\ipnlogo.png
@@ -269,3 +269,4 @@ C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\re
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SCLC.pdb
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SCLC.genruntimeconfig.cache
 C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\SCLC.dll
+C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MauiPopup.dll

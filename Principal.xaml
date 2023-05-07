@@ -14,7 +14,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" TextColor="White" Margin="-50,0,0,0" /> 
                 
-                <Image Source="ipnlogo.png" MaximumHeightRequest="100" MaximumWidthRequest="100" Grid.Row="0" Grid.Column="2" HorizontalOptions="End"/>
+                <Image Source="C:\Users\elfer\source\repos\SCLC\Resources\Images\ipnlogo.jpg" MaximumHeightRequest="99" MaximumWidthRequest="99" Grid.Row="0" Grid.Column="2" HorizontalOptions="End"/>
             </Grid>
             <Grid RowDefinitions="50" ColumnDefinitions="250,250,250" HorizontalOptions="Center">
                 <Image Source="registrarse.png" MaximumHeightRequest="100" MaximumWidthRequest="100" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" />

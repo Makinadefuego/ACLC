@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace SCLC.Services
 {
     public class ObtenerModuloServicio : IObtenerModulo
@@ -20,8 +21,9 @@ namespace SCLC.Services
 
             string parametros = "?dateTime="+ fechaFinal + "&modulo=" + modulo + "&lab=" + lab;
 
-            //string url = Direccion.direccionNancy + "Reservacion/ReservarModulo" + parametros;
-            string url = Direccion.direccionLocal + "Reservacion/ReservarModulo" + parametros;
+        //string url = Direccion.direccionNancy + "Reservacion/ReservarModulo" + parametros;
+        
+            string url = Direccion.direccionLocal + "Reservacion/ReservacionesModulo" + parametros;
 
             client.BaseAddress = new Uri(url);
 
@@ -32,6 +34,7 @@ namespace SCLC.Services
                 //se crea un arreglo de tipo computadora
                
                 var result = await response.Content.ReadAsStringAsync();
+
                 RootComputadoras root = JsonConvert.DeserializeObject<RootComputadoras>(result);
 
                 computadoras = root.response;

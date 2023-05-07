@@ -115,7 +115,7 @@ public partial class VisualizacionReservas : ContentPage
 
         Label etiqueta2 = new Label()
         {
-            Text = "LAB" + laboratorio.idLaboratorio,
+            Text = "LAB " + laboratorio.idLaboratorio,
             VerticalOptions = LayoutOptions.Center,
             HorizontalOptions = LayoutOptions.Center
         };

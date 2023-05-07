@@ -28,11 +28,33 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
+	  <Optimize>False</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
+	  <Optimize>False</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
+	  <Optimize>False</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows10.0.19041.0|AnyCPU'">
+	  <Optimize>False</Optimize>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		
+		
+		<MauiSplashScreen Include="Resources\Splash\ipnlogo.svg" Color="#ffffff"></MauiSplashScreen>
+		
 		<MauiSplashScreen Include="Resources\Splash\splash.svg">
 		  <Color>#ffffff</Color>
 		</MauiSplashScreen>
@@ -40,10 +62,11 @@
 		  <Color>#ffffff</Color>
 		</MauiSplashScreen>
 
+
 		<!-- Splash Screen -->
-		
-		<!--      -->
-		<MauiSplashScreen Include="Resources\Splash\ipnlogo.svg" Color="#ffffff"></MauiSplashScreen>
+
+
+
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -78,10 +101,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
-	  <PackageReference Include="Newtonsoft.Json" Version="6.0.3" />
-	  <PackageReference Include="Plugin.Maui.Popup" Version="1.0.5" />
+	  <COMReference Include="{bee4bfec-6683-3e67-9167-3c0cbc68f40a}">
+	    <WrapperTool>tlbimp</WrapperTool>
+	    <VersionMinor>4</VersionMinor>
+	    <VersionMajor>2</VersionMajor>
+	    <Guid>bee4bfec-6683-3e67-9167-3c0cbc68f40a</Guid>
+	  </COMReference>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+		<PackageReference Include="Plugin.Maui.Popup" Version="1.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Newtonsoft.Json">
+	    <HintPath>..\..\..\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	
 
 	<ItemGroup>
 	  <MauiXaml Update="Pages\EleccionReserva.xaml">

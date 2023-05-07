@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>E917DBA0A684992A77BE3FCBB54155C8B79821A89FD62B98445FA1A651064FC1</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0FA34D5943772C440AEB8717879306E5B0F52B3593909C6E45EF74EA886849F4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9293e18d-3978-4942-a02d-62d9c54d7e46_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9293e18d-3978-4942-a02d-62d9c54d7e46_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>9293e18d-3978-4942-a02d-62d9c54d7e46</RegisteredPackageID>
@@ -29,21 +29,21 @@
     <AppXManifest Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-04T15:42:05.688</Modified>
+      <Modified>2023-05-07T07:11:13.642</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-04T15:42:05.105</Modified>
+      <Modified>2023-05-07T06:10:09.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.runtimeconfig.json">
       <PackagePath>SCLC.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-04T15:36:28.815</Modified>
+      <Modified>2023-05-07T04:48:22.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.dll">
       <PackagePath>SCLC.dll</PackagePath>
-      <Modified>2023-05-04T15:42:03.012</Modified>
+      <Modified>2023-05-07T07:11:11.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SCLC.exe</PackagePath>
@@ -1071,7 +1071,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.deps.json">
       <PackagePath>SCLC.deps.json</PackagePath>
-      <Modified>2023-05-04T15:42:05.454</Modified>
+      <Modified>2023-05-07T07:11:13.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1091,63 +1091,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-100.png">
       <PackagePath>ipnlogoSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.393</Modified>
+      <Modified>2023-05-07T04:44:36.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-125.png">
       <PackagePath>ipnlogoSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.414</Modified>
+      <Modified>2023-05-07T04:44:36.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-150.png">
       <PackagePath>ipnlogoSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.439</Modified>
+      <Modified>2023-05-07T04:44:36.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-200.png">
       <PackagePath>ipnlogoSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.483</Modified>
+      <Modified>2023-05-07T04:44:36.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-400.png">
       <PackagePath>ipnlogoSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.639</Modified>
+      <Modified>2023-05-07T04:44:36.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-100.png">
       <PackagePath>splash1SplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.393</Modified>
+      <Modified>2023-05-06T16:59:30.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-125.png">
       <PackagePath>splash1SplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.414</Modified>
+      <Modified>2023-05-06T16:59:30.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-150.png">
       <PackagePath>splash1SplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.439</Modified>
+      <Modified>2023-05-06T16:59:30.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-200.png">
       <PackagePath>splash1SplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.483</Modified>
+      <Modified>2023-05-06T16:59:30.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-400.png">
       <PackagePath>splash1SplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:24:34.639</Modified>
+      <Modified>2023-05-06T16:59:31.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:05.012</Modified>
+      <Modified>2023-05-04T15:24:34.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:05.029</Modified>
+      <Modified>2023-05-04T15:24:34.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:05.056</Modified>
+      <Modified>2023-05-04T15:24:34.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:05.102</Modified>
+      <Modified>2023-05-04T15:24:34.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:05.255</Modified>
+      <Modified>2023-05-04T15:24:34.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1159,207 +1159,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-05-04T15:30:45.659</Modified>
+      <Modified>2023-05-07T04:44:36.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.931</Modified>
+      <Modified>2023-05-07T04:44:37.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.944</Modified>
+      <Modified>2023-05-07T04:44:37.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.954</Modified>
+      <Modified>2023-05-07T04:44:37.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.973</Modified>
+      <Modified>2023-05-07T04:44:37.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:46.042</Modified>
+      <Modified>2023-05-07T04:44:37.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.725</Modified>
+      <Modified>2023-05-07T04:44:36.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.729</Modified>
+      <Modified>2023-05-07T04:44:36.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.742</Modified>
+      <Modified>2023-05-07T04:44:37.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.732</Modified>
+      <Modified>2023-05-07T04:44:36.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.735</Modified>
+      <Modified>2023-05-07T04:44:37.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.703</Modified>
+      <Modified>2023-05-07T04:44:36.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.706</Modified>
+      <Modified>2023-05-07T04:44:36.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.722</Modified>
+      <Modified>2023-05-07T04:44:36.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.709</Modified>
+      <Modified>2023-05-07T04:44:36.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.712</Modified>
+      <Modified>2023-05-07T04:44:36.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.668</Modified>
+      <Modified>2023-05-07T04:44:36.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.670</Modified>
+      <Modified>2023-05-07T04:44:36.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.673</Modified>
+      <Modified>2023-05-07T04:44:36.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.677</Modified>
+      <Modified>2023-05-07T04:44:36.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.683</Modified>
+      <Modified>2023-05-07T04:44:36.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.686</Modified>
+      <Modified>2023-05-07T04:44:36.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.688</Modified>
+      <Modified>2023-05-07T04:44:36.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.700</Modified>
+      <Modified>2023-05-07T04:44:36.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.691</Modified>
+      <Modified>2023-05-07T04:44:36.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.693</Modified>
+      <Modified>2023-05-07T04:44:36.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.800</Modified>
+      <Modified>2023-05-07T04:44:37.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.805</Modified>
+      <Modified>2023-05-07T04:44:37.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.813</Modified>
+      <Modified>2023-05-07T04:44:37.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.822</Modified>
+      <Modified>2023-05-07T04:44:37.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.843</Modified>
+      <Modified>2023-05-07T04:44:37.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.768</Modified>
+      <Modified>2023-05-07T04:44:37.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.773</Modified>
+      <Modified>2023-05-07T04:44:37.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.778</Modified>
+      <Modified>2023-05-07T04:44:37.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.783</Modified>
+      <Modified>2023-05-07T04:44:37.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.795</Modified>
+      <Modified>2023-05-07T04:44:37.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.746</Modified>
+      <Modified>2023-05-07T04:44:37.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.749</Modified>
+      <Modified>2023-05-07T04:44:37.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.752</Modified>
+      <Modified>2023-05-07T04:44:37.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.756</Modified>
+      <Modified>2023-05-07T04:44:37.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.764</Modified>
+      <Modified>2023-05-07T04:44:37.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.849</Modified>
+      <Modified>2023-05-07T04:44:37.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.858</Modified>
+      <Modified>2023-05-07T04:44:37.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.867</Modified>
+      <Modified>2023-05-07T04:44:37.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.883</Modified>
+      <Modified>2023-05-07T04:44:37.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.919</Modified>
+      <Modified>2023-05-07T04:44:37.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.659</Modified>
+      <Modified>2023-05-07T04:44:36.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.670</Modified>
+      <Modified>2023-05-07T04:44:36.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.688</Modified>
+      <Modified>2023-05-07T04:44:36.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.710</Modified>
+      <Modified>2023-05-07T04:44:36.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-05-04T15:30:45.767</Modified>
+      <Modified>2023-05-07T04:44:37.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\fer.scale-100.png">
       <PackagePath>fer.scale-100.png</PackagePath>
