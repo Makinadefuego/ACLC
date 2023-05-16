@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SCLC.Pages.EleccionReserva"
              Title="EleccionReserva">
-    <ScrollView Background="#82014A">
+    <ScrollView x:Name="vista" Background="#82014A">
         <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="100,0,0,0" Margin="100,0,0,0">
             <Grid  x:Name="contenedor" RowDefinitions="*,300" ColumnDefinitions="200,auto" BackgroundColor="#E9beda"  VerticalOptions="Center" HorizontalOptions="Start"  MinimumWidthRequest="850">
                 <VerticalStackLayout Grid.Row="0" Grid.Column="0"  BackgroundColor="#E9beda">
@@ -17,12 +17,20 @@
                 <DatePicker x:Name="picker" BackgroundColor="#E9beda" Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" VerticalOptions="Center" HorizontalOptions="Center" IsEnabled="True" TextColor="Black"></DatePicker>
             </Grid>
             <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="*" Margin="10">
-                <Button  Text = "Reservar todo"
+                <Button x:Name="ReservarTodo" Text = "Reservar todo"
             FontSize = "10"
             BackgroundColor = "#cf0276"
             CornerRadius = "10"
-            HorizontalOptions = "CenterAndExpand" Grid.Row="0" Grid.Column="0" Clicked="ReservarModulo"/>
+            HorizontalOptions = "CenterAndExpand" Grid.Row="0" Grid.Column="0"/>
+
+                <Button x:Name="btnReservarSeleccionadas" Text = "Reservar seleccionadas"
+                        FontSize = "10"
+                        BackgroundColor = "#cf0276"
+                        CornerRadius = "10"
+                        HorizontalOptions = "CenterAndExpand" Grid.Row="0" Grid.Column="1"  />
             </Grid>
+            
+            
 
         </VerticalStackLayout>
         

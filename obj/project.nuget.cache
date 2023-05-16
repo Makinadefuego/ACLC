@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e8XssowVn3FJKuXJn9F0EtrUfyKZesv7lUFRcr4ZXwaYipwqJwklC79igYDOx42ayFS/K4HmT7Ci9i9QRUXNHA==",
+  "dgSpecHash": "UFgO3p3hgVyyc5cz6Z+Fys9fSKJNcC7ryfVvlEoi0wPq9875Y3bnQ5W+G1gn7dIyV4t6CO3SMgdUWDS5WtO9MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elfer\\source\\repos\\SCLC\\SCLC.csproj",
+  "projectFilePath": "C:\\Users\\elfer\\source\\repos\\ACLC\\SCLC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elfer\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\elfer\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",

@@ -25962,11 +25962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elfer\\source\\repos\\SCLC\\SCLC.csproj",
+      "projectUniqueName": "C:\\Users\\elfer\\Source\\Repos\\ACLC\\SCLC.csproj",
       "projectName": "SCLC",
-      "projectPath": "C:\\Users\\elfer\\source\\repos\\SCLC\\SCLC.csproj",
+      "projectPath": "C:\\Users\\elfer\\Source\\Repos\\ACLC\\SCLC.csproj",
       "packagesPath": "C:\\Users\\elfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elfer\\source\\repos\\SCLC\\obj\\",
+      "outputPath": "C:\\Users\\elfer\\Source\\Repos\\ACLC\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>9293e18d-3978-4942-a02d-62d9c54d7e46</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\elfer\source\repos\ACLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\elfer\source\repos\ACLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.runtimeconfig.json">
       <PackagePath>SCLC.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.dll">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.dll">
       <PackagePath>SCLC.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SCLC.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.16\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
@@ -793,6 +793,9 @@
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\plugin.maui.popup\1.0.5\lib\net6.0-windows10.0.19041\MauiPopup.dll">
       <PackagePath>MauiPopup.dll</PackagePath>
     </AppxPackagedFile>
@@ -802,7 +805,7 @@
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.windowsappsdk\1.1.5\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.deps.json">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SCLC.deps.json">
       <PackagePath>SCLC.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -814,241 +817,253 @@
     <AppxPackagedFile Include="C:\Users\elfer\.nuget\packages\microsoft.maui.core.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-100.png">
       <PackagePath>ipnlogoSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-125.png">
       <PackagePath>ipnlogoSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-150.png">
       <PackagePath>ipnlogoSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-200.png">
       <PackagePath>ipnlogoSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\ipnlogoSplashScreen.scale-400.png">
       <PackagePath>ipnlogoSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-100.png">
       <PackagePath>splash1SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-125.png">
       <PackagePath>splash1SplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-150.png">
       <PackagePath>splash1SplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-200.png">
       <PackagePath>splash1SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash1SplashScreen.scale-400.png">
       <PackagePath>splash1SplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\fer.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\fer.scale-100.png">
       <PackagePath>fer.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\iniciar.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\iniciar.scale-100.png">
       <PackagePath>iniciar.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.jpg">
       <PackagePath>ipnlogo.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ipnlogo.scale-100.png">
       <PackagePath>ipnlogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab1.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab1.scale-100.png">
       <PackagePath>lab1.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab2.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lab2.scale-100.png">
       <PackagePath>lab2.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\registrarse.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc.scale-100.png">
+      <PackagePath>pc.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_green.scale-100.png">
+      <PackagePath>pc_green.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_red.scale-100.png">
+      <PackagePath>pc_red.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pc_yellow.scale-100.png">
+      <PackagePath>pc_yellow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\registrarse.scale-100.png">
       <PackagePath>registrarse.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reserva.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reserva.scale-100.png">
       <PackagePath>reserva.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\triangulo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\triangulo.scale-100.png">
       <PackagePath>triangulo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfer\source\repos\SCLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trianguloB.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\elfer\source\repos\ACLC\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trianguloB.scale-100.png">
       <PackagePath>trianguloB.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

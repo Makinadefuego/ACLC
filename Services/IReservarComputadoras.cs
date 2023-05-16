@@ -9,6 +9,6 @@ namespace SCLC.Services
 {
     interface IReservarComputadoras
     {
-        Task<bool> ReservarComputadora(List<Computadora> computadoras, DateTime fecha, Usuario usuario);
+        Task<bool> ReservarComputadora(List<int> computadoras, DateTime fecha, Usuario usuario, int modulo, int lab);
     }
 }

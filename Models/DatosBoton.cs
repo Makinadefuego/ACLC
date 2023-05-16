@@ -13,7 +13,7 @@ namespace SCLC.Models
 
         public Button boton { get; set; }
 
-        public string estado{ get; set; }
+        public bool disponible{ get; set; }
 
         public DatosBoton(int modulo, DateTime fecha)
         {
@@ -26,7 +26,7 @@ namespace SCLC.Models
                 CornerRadius = 0,
                 BackgroundColor = Colors.Transparent
             };
-            this.estado = "disponible";
+            this.disponible = true;
         }
     }
 }

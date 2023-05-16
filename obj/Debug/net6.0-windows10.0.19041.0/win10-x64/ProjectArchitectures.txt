@@ -1,1 +1,1 @@
-C:\Users\elfer\source\repos\SCLC\SCLC.csproj;x64
+C:\Users\elfer\source\repos\ACLC\SCLC.csproj;x64

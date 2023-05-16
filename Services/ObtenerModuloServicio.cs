@@ -23,7 +23,7 @@ namespace SCLC.Services
 
         //string url = Direccion.direccionNancy + "Reservacion/ReservarModulo" + parametros;
         
-            string url = Direccion.direccionLocal + "Reservacion/ReservacionesModulo" + parametros;
+            string url = Direccion.direccionLocal + "Reservacion/ObtenerComputadorasReservadasModulo" + parametros;
 
             client.BaseAddress = new Uri(url);
 
